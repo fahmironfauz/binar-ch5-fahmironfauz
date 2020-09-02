@@ -1,0 +1,71 @@
+body {
+    background: #9C835F;
+}
+
+/* .score-board {
+    border: 3px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    font-family: "Lobster", cursive;
+    font-size: 46px;
+    margin: 20px auto;
+    padding: 15px 20px;
+    position: relative;
+    text-align: center;
+    width: 200px;
+}
+
+.badge {
+    background: #de6a68;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+#user-label {
+    position: absolute;
+    top:30px;
+    left:-30px;
+}
+
+#comp-label {
+    position: absolute;
+    top: 30px;
+    right: -30px;
+} */
+
+.result {
+    color: #fff;
+    font-size: 40px;
+}
+
+.result > p {
+    font-family: "Lobster", cursive;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.choices {
+    margin-top: 20px;
+    text-align:center;
+}
+
+.choice {
+    border: 2px solid #fff;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 10px;
+    margin: 30px;
+    transition: all ease .4s;
+}
+
+.choice:hover {
+    cursor: pointer;
+    padding: 30px;
+    background: #C4C4C4;
+}
+
+.choice > img {
+    max-width: 180px;
+    max-height: 180px;
+}
